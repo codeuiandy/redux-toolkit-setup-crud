@@ -1,0 +1,70 @@
+.HomePage {
+  padding: 50px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.table-wrap {
+  width: 100%;
+  border: 1px solid grey;
+  padding: 30px;
+  /* background-color: white;
+   */
+}
+
+.createProject {
+  width: 450px;
+  border-radius: 5px;
+}
+.form {
+  width: 100%;
+}
+.form .inputWrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form .inputWrap input {
+  width: 100%;
+  background: #f1f2f4;
+  border-radius: 5px;
+  border: none;
+  height: 45px;
+  padding: 10px;
+  margin-top: 7px;
+  outline: none;
+  color: #6c6c6c;
+  font-size: 13px;
+}
+
+.form .inputWrap label {
+  color: #0b0b0b;
+  font-size: 15px;
+}
+
+.app-table-btn {
+  display: flex;
+}
+
+.app-table-btn button {
+  padding: 10px 30px;
+  margin-right: 10px;
+  border: none;
+  white-space: nowrap;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.app-table-btn button:nth-child(1) {
+  background-color: #183059;
+  color: white;
+  font-size: 13px;
+}
+
+.app-table-btn button:nth-child(3) {
+  background-color: rgba(255, 0, 0, 0.699);
+  color: white;
+  font-size: 13px;
+}

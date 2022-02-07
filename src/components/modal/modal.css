@@ -1,0 +1,34 @@
+.modalHeader {
+  /* // background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(183, 193, 206, 0.637);
+  padding-bottom: 20px;
+}
+
+.modalHeader p {
+  color: #183059;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cancelModalHeader {
+  background-color: rgba(183, 193, 206, 0.637) !important;
+  padding: 7px !important;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.modalHeader .cancelModalHeader svg {
+  width: 80%;
+  height: 80%;
+}
